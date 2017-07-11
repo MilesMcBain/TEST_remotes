@@ -1,0 +1,47 @@
+
+Package: TEST
+Type: Package
+Title: TEST
+Version: 0.0.9.9001
+Author: Miles McBain
+Authors@R: c(
+    person("Miles", "McBain", , "miles.mcbain@gmail.com", role = "aut")
+    )
+Description:TEST.
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat,
+    rpart,
+    rpart.plot,
+    covr,
+    gridExtra,
+    wakefield,
+    vdiffr,
+    here,
+    simputation,
+    imputeTS
+VignetteBuilder: knitr
+Depends:
+    R (>= 3.1.2)
+Imports:
+    dplyr,
+    ggplot2,
+    purrr,
+    tidyr,
+    tibble,
+    magrittr,
+    stats,
+    visdat,
+    purrrlyr,
+    rlang,
+    forcats
+Remotes:
+    njtierney/visdat
+    njtierney/narnia
+    milesmcbain/packup
+    milesmcbain/datapasta
+    milesmcbain/deplearning
+RoxygenNote: 6.0.1.9000
