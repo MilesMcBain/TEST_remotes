@@ -38,9 +38,9 @@ Imports:
     rlang,
     forcats
 Remotes:
-    njtierney/visdat
-    njtierney/narnia
-    milesmcbain/packup
-    milesmcbain/datapasta
+    njtierney/visdat,
+    njtierney/narnia,
+    milesmcbain/packup,
+    milesmcbain/datapasta,
     milesmcbain/deplearning
 RoxygenNote: 6.0.1.9000
